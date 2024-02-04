@@ -41,6 +41,12 @@ if answer == "power supply unit":
 else:
     print("Incorrect!")
 
+if answer == "arithmetic logic unit":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
 
 print(f"You got {score} questions correct!")
 
